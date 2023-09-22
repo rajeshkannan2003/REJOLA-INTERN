@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mulish', sans-serif;
+    color: rgba(30, 50, 64, 1);
+}
+
+.header {
+    background-color: rgba(175, 212, 226, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    /* position: sticky;
+    top: 0; */
+    /* z-index: 99; */
+}
+
+#logo {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+
+}
+
+header nav ul li {
+    font-size: 14px;
+    color: rgba(38, 38, 38, 1);
+}
+
+
+header nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 30px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+/* <!-- ------------------------------------------------Home----------------------------------------------------------------------     --> */
+
+.home {
+    background-color: rgba(175, 212, 226, 1);
+    height: 100%;
+    overflow: hidden;
+}
+
+.home .content .left {
+    margin: 0% 10%;
+    padding-top: 5%;
+}
+
+.home .content .left h1 {
+    font-size: 110px;
+}
+
+.home img {
+    height: 110%;
+    position: absolute;
+    top: 32px;
+    right: 0;
+}
+
+.home .content .left p {
+    padding: 2% 0;
+    font-size: 18px;
+}
+
+.home .content .left .button1,
+.button2 {
+    padding: 1% 2%;
+    background-color: rgba(30, 50, 64, 1);
+    color: white;
+}
+
+.home .content .left .button2 {
+    background-color: rgba(175, 212, 226, 1);
+    color: black;
+}
+
+.home .content .left .button1:hover,
+.home .content .left .button2:hover {
+    background-color: red;
+}
+
+
+
+.home .content .left #arrow {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 78%;
+    right: 42%;
+}
+
+/*      About          */
+
+.about {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+
+.about .top {
+    display: flex;
+    justify-content: center;
+
+}
+
+.about .top img {
+    margin: 10% 5%;
+}
+
+.about .content {
+    margin-top: 11%;
+}
+
+.about .content h1 {
+    font-size: 45px;
+    padding-bottom: 5%;
+}
+
+.about .content p {
+    font-size: 20px;
+    color: gray;
+}
+
+.about .card-set {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+
+}
+
+.about .card-set .card .container h4 {
+    font-size: 19px;
+    color: gray;
+}
+
+.about .card-set .card .container p {
+    font-size: 40px;
+}
+
+/* <!-- ------------------------------------------------Project---------------------------------------------------------------------- --> */
+
+.project {
+    position: relative;
+    height: 100vh;
+}
+
+.project .topic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.project .topic h1 {
+    font-size: 52px;
+    padding: 1% 0;
+}
+
+.project .topic p {
+    font-size: 17px;
+    color: gray;
+}
+
+.project .topic h2 {
+    color: gray;
+    font-size: 28px;
+    margin: 4% 8%;
+
+}
+
+ .project img{
+    margin-left: 16%;
+    margin-top: 2%;
+} 
+
+.project .card-set {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.project .card-set .card {
+    position: relative;
+    margin-left: 5.5%;
+}
+
+.project .card-set .card .img {
+    width: 100%;
+    height: 100%;
+}
+
+.project .card-set .card .container {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    width: 80%;
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+    padding: 6% 5%;
+}
+
+.project .card-set .card .name {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid white;
+    width: 150%;
+    position: absolute;
+    bottom: -40px;
+    left: 30px;
+    padding: 15% 7%;
+
+}
+
+
+
+.project .card-set .card .container h4 {
+    font-size: 17px;
+}
+
+.project .card-set .card .name h4 {
+    font-size: 17px;
+    width: 300%;
+}
+
+.project .card-set .card .container p {
+    font-size: 12px;
+}
+
+.project .card-set .card .name p {
+    font-size: 12px;
+    width: 300%;
+}
+
+/* <!-- ------------------------------------------------Testimony---------------------------------------------------------------------- --> */
+
+.testimony {
+    position: relative;
+}
+
+.testimony .pro {
+    position: absolute;
+    top: -45%;
+    right: 30%;
+}
+
+.testimony .pro h1 {
+    font-size: 50px;
+    padding-bottom: 1%;
+}
+
+.testimony .pro p {
+    font-size: 19px;
+    margin-left: 11%;
+}
+
+.test {
+    overflow: hidden;
+    margin: 20% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony i {
+    font-size: 36px;
+    color: gray;
+}
+
+.testimony .right h1 {
+    font-size: 100px;
+    margin-top: -15%;
+    color: gray;
+}
+
+.testimony h2 {
+    font-size: 30px;
+    margin-top: -10%;
+}
+
+.testimony p {
+    font-size: 22px;
+    padding-top: 5%;
+}
+
+.testimony h3 {
+    font-size: 22px;
+    padding-top: 4%;
+}
+
+.testimony h6 {
+    font-size: 16px;
+    padding-top: 2%;
+    color: rgb(65, 58, 58);
+}
+
+/* <!-- ------------------------------------------------Contact---------------------------------------------------------------------- --> */
+
+.contact {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 10%;
+}
+
+.contact h1 {
+    font-size: 50px;
+    margin: 10% 0% 0 -30%;
+}
+
+.contact .content p {
+    font-size: 20px;
+    margin: 1% -30%;
+}
+
+.contact .forms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -30%;
+    margin-bottom: 5%;
+}
+
+.contact .form {
+    border: 1px solid black;
+    width: 70%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.contact .form:nth-child(5) {
+    width: 170%;
+    height: 180%;
+}
+
+.contact button {
+    margin-top: 10%;
+    margin-left: -30%;
+    padding: 3% 5%;
+    background-color: rgba(30, 50, 64, 1);
+    color: white;
+}
+
+.contact button:hover {
+    background-color: red;
+}
+
+.contact .content .p2 {
+    font-size: 12px;
+    margin-left: 1px;
+    margin-top: -7%;
+    color: gray;
+}
+
+/* <!-- ------------------------------------------------Footer---------------------------------------------------------------------- --> */
+
+footer {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(30, 50, 64, 1);
+    margin-top: 7%;
+    height: 45vh;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+footer p,
+footer i {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: rgba(189, 189, 189, 1);
+}
+
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgba(189, 189, 189, 1);
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer .copyright {
+    width: 100%;
+    margin: 0 9%;
+}
+
+/* --------------------------------------------media query----------------------------------------------------------------------------------------- */
+
+@media (max-width:768px) {
+    .home .content .left h1 {
+        font-size: 80px;
+    }
+
+    .home img {
+        height: 70%;
+        position: absolute;
+        top: 35.5%;
+        right: 0;
+        /* display: none; */
+    }
+
+    .home .content .left #arrow {
+        width: 15%;
+        height: 20%;
+        position: absolute;
+        top: 50%;
+        left: 13%;
+    }
+
+    .about .top img {
+        width: 50%;
+        height: 70%;
+        margin: 10% 5%;
+    }
+
+    .about .content h1 {
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+
+    .about .content p {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .about .card-set .card .container h4 {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .about .card-set .card .container p {
+        font-size: 30px;
+    }
+
+    .project .card-set {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .project .card-set .card:nth-child(3) {
+        margin-left: 30%;
+    }
+
+    .project .card-set .card:nth-child(4) {
+        display: none;
+    }
+
+    .testimony .pro h1 {
+        font-size: 40px;
+    }
+
+    .test {
+        overflow: hidden;
+        margin: 60% 3%;
+    }
+
+    .testimony .pro h1 {
+        font-size: 35px;
+        padding-bottom: 0;
+        margin-left: 11%;
+        margin-top: -10%;
+    }
+
+    .testimony .pro p {
+        font-size: 19px;
+        margin-left: 11%;
+        margin-top: 0;
+    }
+
+    .testimony .test img {
+        width: 40%;
+        height: 40%;
+
+    }
+
+    .testimony i {
+        font-size: 26px;
+        color: gray;
+    }
+
+    .testimony .right h1 {
+        font-size: 70px;
+        margin-top: -15%;
+        color: gray;
+    }
+
+    .testimony h2 {
+        font-size: 20px;
+        margin-top: -10%;
+    }
+
+    .testimony p {
+        font-size: 16px;
+        padding-top: 5%;
+    }
+
+    .testimony h3 {
+        font-size: 16px;
+        padding-top: 4%;
+    }
+
+    .testimony h6 {
+        font-size: 14px;
+        padding-top: 2%;
+        color: rgb(65, 58, 58);
+    }
+
+    .contact {
+        margin-top: -40%;
+    }
+
+    .contact img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+        margin: 10% 0% 0 10%;
+    }
+
+    .contact .content p {
+        font-size: 15px;
+        margin: 1% 10%;
+    }
+
+    .contact .forms {
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    .contact button {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .contact .content .p2 {
+        font-size: 11px;
+        margin-left: 47%;
+        margin-top: -11%;
+    }
+}
+
+/* ------------------------------------------------------------------------------- */
+
+@media (max-width:420px) {
+
+    .home {
+        height: 70vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+        padding: 2% 0;
+    }
+
+    header nav ul li a {
+        color: black;
+        padding: 3px 24px;
+        overflow: hidden;
+    }
+
+    .home .content .left h1 {
+        font-size: 45px;
+    }
+
+    .home img {
+        height: 50%;
+        position: absolute;
+        top: 28%;
+        right: 0;
+        /* display: none; */
+    }
+
+    .home .content .left #arrow {
+        width: 15%;
+        height: 10%;
+        position: absolute;
+        top: 34%;
+        left: 13%;
+    }
+    .about .top {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about .top img {
+        width: 100%;
+        margin: 10% 5%;
+    }
+    .about .content{
+        margin-left: 3%;
+        margin-top: -20%;
+    }
+    .about .content h1 {
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+
+    .about .content p {
+        font-size: 14px;
+        color: gray;
+    }
+
+    .about .card-set {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+    }
+    .about .card-set .card .container h4 {
+        font-size: 13px;
+        color: gray;
+    }
+
+    .about .card-set .card .container p {
+        font-size: 22px;
+    }
+
+    .project {
+        margin-top: 10%;
+    }
+
+    .project .topic h1 {
+        font-size: 22px;
+        padding: 1% 0;
+    }
+
+    .project .topic p {
+        font-size: 14px;
+    }
+
+    .project .topic h2 {
+        font-size: 22px;
+        margin: 4% 8%;
+    }
+
+    .project .card-set {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        height: 100vh;
+        overflow: visible;
+    }
+
+    .project .card-set .card:nth-child(2) {
+        margin-top: 30%;
+        margin-left: 8%;
+        display: none;
+    }
+
+    .project .card-set .card:nth-child(3) {
+        margin-top: 30%;
+        margin-left: 8%;
+        /* display: none; */
+    }
+
+    .project .card-set .card:nth-child(4) {
+        display: none;
+        
+    }
+    .project .card-set .card .container {
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid white;
+        width: 80%;
+        position: absolute;
+        bottom: -40px;
+        right: 60px;
+        padding: 6% 5%;
+    }
+
+    .testimony .pro h1 {
+        font-size: 40px;
+    }
+
+    .test {
+        overflow: hidden;
+        margin: 110% 3%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .testimony .pro h1 {
+        font-size: 21px;
+        padding-bottom: 0;
+        margin-left: 11%;
+        margin-top: 60%;
+    }
+
+    .testimony .pro p {
+        font-size: 17px;
+        margin-left: 11%;
+        margin-top: 0;
+    }
+
+    .testimony .test img {
+        width: 100%;
+        height: 100%;
+        margin-top: -10%;
+
+    }
+
+    .testimony i {
+        display: none;
+    }
+
+    .testimony .right h1 {
+        font-size: 70px;
+        margin-top: 10%;
+        color: gray;
+    }
+
+    .testimony h2 {
+        font-size: 20px;
+        margin-top: -10%;
+    }
+
+    .testimony p {
+        font-size: 16px;
+        padding-top: 5%;
+    }
+
+    .testimony h3 {
+        font-size: 16px;
+        padding-top: 4%;
+    }
+
+    .testimony h6 {
+        font-size: 14px;
+        padding-top: 2%;
+        color: rgb(65, 58, 58);
+    }
+
+    .contact {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -100%;
+    }
+
+    .contact img {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .contact h1 {
+        font-size: 50px;
+        margin: 10% 0% 0 10%;
+    }
+
+    .contact .content p {
+        font-size: 17px;
+        margin: 1% 10%;
+    }
+    .contact .form {
+        border: 1px solid black;
+        width: 90%;
+        padding: 10%;
+        margin-bottom: 5%;
+    }
+    .contact .form:nth-child(5) {
+        width: 190%;
+        height: 180%;
+    }
+    .contact .forms {
+        margin: 10% 0 10% 9%;
+        
+    }
+
+    .contact button {
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .contact .content .p2 {
+        font-size: 11px;
+        margin-left: 47%;
+        margin-top: -11%;
+    }
+
+
+    /*              footer       */
+    footer {
+        display: grid;
+        grid-template-columns:3fr 2fr;
+        align-items: center;
+        margin-top: 7%;
+        height: 45vh;
+    }
+    footer .col{
+        margin-left: 15%;
+    }
+}

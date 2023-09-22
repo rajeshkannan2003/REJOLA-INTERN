@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mulish', sans-serif;
+    color: rgba(30, 50, 64, 1);
+}
+.header {
+    background-color: #afd4e2; 
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+
+
+
+}
+#Luger-logo{
+    font-size:112.5%;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+header nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+
+}
+header nav ul li a{
+    font-size: 87.5%;
+    color: #262626;
+
+}
+header nav ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 30px;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+.hero{
+    background-color: #AFD4E2;
+    height: 100%;
+    
+    overflow: hidden;
+    
+}
+.hero .hero-content .left{
+    margin: 0% 10%;
+    padding-top: 5%;
+}
+.hero .hero-content .left h1{
+    font-size: 550%;
+}
+
+.hero img{
+    height:110% ;
+    position: absolute;
+    right: 0;
+    top: 16%;
+}
+
+.hero .hero-content .left p{
+    padding: 2% 0;
+    font-size: 112.5%;
+}
+.hero .hero-content .left .button1,.button2{
+    padding: 1% 2%;
+    background-color: rgba(30, 50, 64, 1);
+    color: white;
+}
+.hero .hero-content .left .button2{
+    background-color: rgba(175, 212, 226, 1);
+    color: black;
+}
+.hero .hero-content .left .button1:hover{
+    background-color: #AFD4E2;
+}
+.hero .hero-content .left .button2:hover{
+    background-color: whitesmoke;
+}
+.hero  #arrow {
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 68%;
+    right: 45%;
+
+} 
+#house-1{
+   
+     width: 642px;
+    height: 854px;
+    top: -107px;
+    left : 855px; 
+    /* Width: 64.2%;
+Height: 71.17%;
+Top: -8.92% (positioned above);
+Left: 85.5%; */
+z-index:auto;
+     
+
+
+
+
+}
+.highlight{
+    position: absolute;
+    right: -50px;
+    top: 110px;
+
+}
+.highlight1{
+    position: absolute;
+   bottom: 255px;
+   right: -235px;
+}
+
+@media (max-width:768px){
+    .hero .hero-content .left h1{
+        font-size:500%;
+    }
+    .hero img{
+        height: 70%;
+        position: absolute;
+        top: 35.5%;
+        right: 0;
+    }
+    .hero .hero-content .left #arrow{
+        width: 15%;
+        height: 20%;
+        position: absolute;
+        top: 50%;
+        left: 13%;
+    }
+
+
+}
+@media (max-width:420px){
+    .hero{
+        height: 70vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .header{
+        justify-content: center;
+        padding: 2% 0;
+    }
+    #luger-logo{
+        
+        display: none;
+    }
+    header nav ul li a {
+        color: black;
+        padding: 3px 24px;
+        overflow: hidden;
+    }
+    .hero img{
+        height: 50%;
+        position: absolute;
+        top: 28%;
+        right: 0;
+    }
+
+    .hero .hero-content .left #arrow{
+        width: 15%;
+        height: 10%;
+        position: absolute;
+        top: 34%;
+        left: 13%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
