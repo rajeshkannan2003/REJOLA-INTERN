@@ -6,7 +6,7 @@
 }
 
 
-/* Navigation bar start --------------------------------*/
+/* Navigation bar */
 
 nav ul { 
     list-style: none;
@@ -15,7 +15,7 @@ nav ul {
 ul#nav-prt2 li:last-child a {
     padding-right: 0;
 }
-/* Navigation bar end --------------------------------*/
+
 
 a{
     text-decoration: none;
@@ -35,7 +35,7 @@ a{
 
 
 
-/* first page body  */
+/* hero page body  */
 
 
 #fp-img3{
@@ -50,27 +50,29 @@ a{
     right: 14%;
 }
 
-.first-pg-btn1{
+.hero-pg-btn1{
     padding: 18px 24px 18px 24px;
     margin: 25px 10px 0px 0px;
     color: white;
     background-color: #1E3240;
 }
 
-.first-pg-btn2{
+.hero-pg-btn2{
     padding: 18px 24px 18px 24px;   
     background-color:#add3ed;
 }
 
-.second-page-body{
+/* About page */
+
+.about-page-body{
     display: flex;
     background-color: #FFFFFF;
     height: 100vh; 
     width: 100vw;
-    /* position: relative; */
+   
 }
 
-.second-page-left{
+.about-page-left{
     
     background-color: #FFFFFF;
     width: 51%;
@@ -78,12 +80,12 @@ a{
     
 }
 
-.second-page-left img{
+.about-page-left img{
     height: 400px;
     width: 370px;
 }
 
-.second-page-right{
+.about-page-right{
     width: 470px;
     padding-top: 130px;
    
@@ -91,19 +93,19 @@ a{
 
 
 
-.second-pg-pra1{
+.about-pg-pra1{
     font-weight: bold;
     font-size: 40px;
     width: 440px;
 }
-.second-pg-pra2{
+.about-pg-pra2{
     padding: 35px 0px 35px 0px ;
     width: 400px;
     font-size: 14px;
     color: rgb(0, 0, 0,0.4);
 }
 
-.second-pg-pra3{
+.about-pg-pra3{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -118,7 +120,7 @@ a{
     color: rgb(0, 0, 0,0.8);
 }
 
-/* 3rd-page */
+/* On Going Projects page */
 
 .thrd-page-body{
     padding: 0px 0px 0px 11%;
@@ -162,85 +164,85 @@ a{
     width: 100%;
 
 }
-/* 4rd-page */
+/* Testimonial-page */
 
 
 
-.fourth-pg-pra1{
+.testimonial-pg-pra1{
     font-size: 35px;
     text-align: center;
     padding-top: 35px;
     
 }
 
-.fourth-pg-pra2{
+.testimonial-pg-pra2{
     
     font-size: 14px;
     color: rgb(0, 0, 0,0.4);
     padding-top: 7px;
     text-align: center;
 }
-.fourth-page-bottom{
+.testimonial-page-bottom{
     display: flex;
     padding: 0px 0px 0px 11% ;
     height: 100vh;
 }
 
-.fourth-img{
+.testimonial-img{
     width: 430px;
     height: 410px;
     padding-top: 70px;
 }
 
-.fourth-page-right{
+.testimonial-page-right{
     width: 45%;
 
 }
 
-.fourth-page-left {
+.testimonial-page-left {
     width: 55%;
     
 
 }
-.fourth-page-left p{
+.testimonial-page-left p{
    
     width: 480px;
     
 
 }
 
-.fourth-page-left h3{
+.testimonial-page-left h3{
     font-size: 27px;
     padding-top: 172px;
 }
 
-.fourth-pg-pra3{
+.testimonial-pg-pra3{
     font-size: 24px;
     padding-top: 20px;
     color: rgb(0, 0, 0,0.4);
 }
 
-.fourth-pg-pra4{
+.testimonial-pg-pra4{
     padding-top: 20px;
     font-size: 24px;
     color: rgb(0, 0, 0,0.8);
 
 }
 
-.fourth-pg-pra5{
+.testimonial-pg-pra5{
     color: rgb(0, 0, 0,0.6);
     
 }
 
-/* fifth page */
+/* contact page */
 
-.fifth-page-body{
+.contact-page-body{
     display: flex;
     padding: 0px 0px 0px 11% ;
     height: 100vh;
 }
 
-.fifth-img{
+.contact-img{
 
     width: 430px;
     height: 450px;
@@ -248,19 +250,19 @@ a{
 }
 
 
-.fifth-page-left{
+.contact-page-left{
     width: 45%;
 
 }
 
 
 
-.fifth-pg-pra1{
+.contact-pg-pra1{
     font-size: 30px;
     padding-top: 80px;
 }
 
-.fifth-pg-pra2{
+.contact-pg-pra2{
    
     padding-top: 20px;
     color: rgb(0, 0, 0,0.4);
@@ -281,11 +283,11 @@ a{
 
 }
 
-.fifth-pg-input{
+.contact-pg-input{
     width: 450px;
 }
 
-.fifth-pg-button{
+.contact-pg-button{
     padding: 18px 24px 18px 24px;
     margin: 25px 10px 0px 0px;
     color: white;
@@ -343,10 +345,14 @@ a{
 
 
 
-/* #################### RESPONSIVE CSS ############################## */
+/*  RESPONSIVE CSS  */
 
 
-/* desktop css start ---------------------------------------------*/
+/* desktop css start */
+
+
+
+
 @media (min-width:992px) {
 
     body{
@@ -381,14 +387,14 @@ a{
     #nav-prt2 a{
         padding: 28px;
     }
-    .first-page-body{
+    .hero-page-body{
     display: flex;
     padding-top: 90px;
     background-color:#add3ed;
     
     
 }
-    .first-page-right #fp-img1{
+    .hero-page-right #fp-img1{
 
         /* width: 37rem;
         height: 40rem; */
@@ -398,7 +404,7 @@ a{
         right: 0px;
         bottom: 0px;
     }
-    .page-first{
+    .page-hero{
         position: relative;
         height: 100vh;
         background-color:#add3ed;
@@ -407,14 +413,14 @@ a{
         margin: 31px 0px 0px 165px ;
     
     }
-    .first-page-left{
+    .hero-page-left{
    
         width: 60%;
         padding-left: 11%;
         /* border: 1px solid black; */
     }
 
-    .first-page-right{
+    .hero-page-right{
         width: 40%;
         
     }
@@ -486,19 +492,19 @@ a{
         color: black;
     }
 
-    .fifth-img{
+    .contact-img{
 
         width: 430px;
         height: 491px;
         padding-top: 80px;
     }
     
-    .second-page-left img {
+    .about-page-left img {
         height: 400px;
         width: 422.8px;
         
     }
-    .fourth-img {
+    .testimonial-img {
         width: 430px;
         height: 470px;
         padding-top: 70px;
@@ -507,7 +513,7 @@ a{
 /* desktop css end -*/
 
 
-/* Mobile View CSS Start ---*/
+/* Mobile View CSS Start */
 @media (max-width:991px) {
    
      body{
@@ -550,10 +556,10 @@ a{
     
     }
 
-    ul#nav-prt2 li:first-child a {
+    ul#nav-prt2 li:hero-child a {
         padding-left: 0;
     }
-    .first-page-body{
+    .hero-page-body{
         background-image: linear-gradient(35deg,
         rgb(255, 255, 255,0.4), rgb(255, 255, 255,0.4)), url("./media/House\ 1.png");
         background-size: 100%;
@@ -576,38 +582,38 @@ a{
     
     }
 
-    .first-pg-btn1 {
+    .hero-pg-btn1 {
         padding:15px;
         margin: 24px 34px 42px 11%;
         color: white;
         background-color: #1E3240;
     }
     
-    .first-pg-btn2 {
+    .hero-pg-btn2 {
         padding:15px;
         background-color: #add3ed;
     }
     
-    .second-page-left img {
+    .about-page-left img {
         height: 351px;
         width: 314px;
         /* position: relative; */
     }
-    .second-page-right {
+    .about-page-right {
         
         padding-top: 29px;
     }
 
-    .second-page-right {
+    .about-page-right {
         padding-top: 29px;
         margin-left: 11%;
     }
-    .second-pg-pra1 {
+    .about-pg-pra1 {
        
         font-size: 33px;
         width: 340px;
     }
-    .second-pg-pra2 {
+    .about-pg-pra2 {
         padding: 35px 0px 35px 0px;
         width: 340px;
         font-size: 14px;
@@ -623,7 +629,7 @@ a{
         
     }
 
-    .second-pg-pra3 {
+    .about-pg-pra3 {
         
         font-size: 13px;
         width: 310px;
@@ -685,7 +691,7 @@ a{
         display: none;
     }
     
-    .fifth-page-body{
+    .contact-page-body{
         padding-top: 29px;
         margin-left: 11%;
 
@@ -693,7 +699,7 @@ a{
 
     
     
-    .fourth-pg-pra1 {
+    .testimonial-pg-pra1 {
         font-size: 33px;
         text-align: center;
         padding-top: 35px;
@@ -701,52 +707,52 @@ a{
         text-align: left;
         padding-right: 11%;
     }
-    .fourth-pg-pra2 {
+    .testimonial-pg-pra2 {
         margin-left: 11%;
         margin-right: 11%;
         text-align: left;
         
     }
 
-    .fourth-img {
+    .testimonial-img {
     width: 314px;
     height: 372px;
     padding-top: 53px;
     }
-    .fourth-page-left {
+    .testimonial-page-left {
         width: 100%;
     }
 
-    .fourth-page-left h3 {
+    .testimonial-page-left h3 {
         
         padding-top: 70px;
     }
     
-    .fourth-page-left p {
+    .testimonial-page-left p {
         width: 327px;
         font-size: 19px;
     }
-    .fifth-page-left {
+    .contact-page-left {
         width: 100%;
     }
 
-    .fifth-page-body{
+    .contact-page-body{
         padding-top: 29px;
         padding-left: 0;
         
     }
-    .fifth-img {
+    .contact-img {
         width: 307px;
         height: 391px;
         padding-top: 80px;
     }
-    .fifth-pg-pra2 {
+    .contact-pg-pra2 {
         margin-right: 11%;
     }
-    .fifth-pg-pra1 {
+    .contact-pg-pra1 {
         padding-top: 28px;
     }
-    .fifth-page-body {
+    .contact-page-body {
         padding-top: 29px;
         padding-left: 0;
         margin-bottom: 276px;
@@ -762,14 +768,14 @@ a{
         padding-bottom: 31px;
         margin-top: 20px;
     }
-    .fifth-pg-button {
+    .contact-pg-button {
         padding: 15px;
         margin: 25px 10px 0px 0px;
         color: white;
         background-color: #1E3240;
     }
 
-    .fifth-pg-input {
+    .contact-pg-input {
 
         display: flex;
         flex-direction: column;
@@ -802,10 +808,3 @@ a{
     }
     }
     
-
-/* Mobile View CSS End ------------------------------------------------*/
-
-
-
-
-
