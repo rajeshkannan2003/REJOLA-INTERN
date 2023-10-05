@@ -122,46 +122,47 @@ a{
 
 /* On Going Projects page */
 
-.thrd-page-body{
+.ongoing-page-body{
     padding: 0px 0px 0px 11%;
     height: 100vh;
     margin-top: 34px;
     
 }
 
-.thrd-pg-pra1{
+.ongoing-pg-pra1{
     font-weight: bold;
     font-size: 40px;
     margin-top: 32px;
 
 }
 
-.thrd-pg-pra2{
+.ongoing-pg-pra2{
     width: 400px;
     font-size: 14px;
     color: rgb(0, 0, 0,0.4);
     padding-top: 7px;
 }
 
-.thrd-pg-arrow{
+.ongoing-pg-arrow{
     position: relative;
     right: -941px;
     top: -26px;
     width: 50px;
 }
 
-.thrd-pg-bottom{
+.ongoing-pg-bottom{
     display: flex;
+    overflow-x: auto;
     
 
 }
-
+.img-group
 
 
 #img-alone{
     height: 100%;
     padding-top: 35px;
-    width: 100%;
+    width: 33%;
 
 }
 /* Testimonial-page */
@@ -431,27 +432,17 @@ a{
         margin: 0px;
         width: 75%;
     }
-    .thrd-pg-bottom .img-group{
-        padding-top: 30px;
-        height: 100%;
-        padding-right: 33px;
-        width: 100%;
-        justify-content: space-between;
-        
-    
-    }
-    
-
-    #img-alone{
-        height: 100%;
+     
+    .ongoing-pg-bottom .img-group {
         padding-top: 31px;
-        width: 100%;
-       
+        
+        min-width: 33.333;
+        justify-content: space-between;
+        padding-right: 33px;
+        
+      }
     
-    }
-
-
-    #fp-img2 {
+     #fp-img2 {
         position: absolute;
         top: 56%;
         right: 49%;
@@ -483,11 +474,11 @@ a{
     }
 
 
-    .thrd-pg-img-pra{
+    .ongoing-pg-img-pra{
         font-size: 12px;
         color: black;
     }
-    .thrd-pg-img-pra-last{
+    .ongoing-pg-img-pra-last{
         font-size: 12px;
         color: black;
     }
@@ -636,26 +627,26 @@ a{
         
     }
 
-    .thrd-page-body {
+    .ongoing-page-body {
         padding: 0px 0px 0px 11%;
         /* height: 100vh; */
         margin-top: 131px;
     }
-    .thrd-pg-pra1 {
+    .ongoing-pg-pra1 {
         
         font-size: 33px;
         margin-top: 32px;
     }
 
-    .thrd-pg-pra2 {
+    .ongoing-pg-pra2 {
         width: 340px;
         
     }
-    .thrd-pg-bottom >div{
+    .ongoing-pg-bottom >div{
         width: 50%;
         
     }
-    .thrd-pg-bottom{
+    .ongoing-pg-bottom{
         display: flex;
         flex-wrap: wrap;
     }
@@ -666,7 +657,7 @@ a{
         width: 100%;
         padding-right: 35px;
     }
-    .thrd-pg-bottom .img-group{
+    .ongoing-pg-bottom .img-group{
         padding-top: 30px;
         
         padding-right: 33px;
@@ -684,10 +675,10 @@ a{
         
     } 
     
-    .thrd-pg-img-pra{
+    .ongoing-pg-img-pra{
         display: none;
     }
-    .thrd-pg-img-pra-last{
+    .ongoing-pg-img-pra-last{
         display: none;
     }
     
