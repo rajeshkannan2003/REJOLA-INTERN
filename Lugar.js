@@ -100,12 +100,12 @@
   
   leftslide.addEventListener("click",()=>{
     scrollCont.style.scrollBehavior="smooth"
-    scrollCont.scrollLeft-=100;
+    scrollCont.scrollLeft-=200;
       
   })
   
   righttslide.addEventListener("click",()=>{
     scrollCont.style.scrollBehavior="smooth"
-    scrollCont.scrollLeft +=100;
+    scrollCont.scrollLeft +=200;
       
   })
